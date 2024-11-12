@@ -1,0 +1,42 @@
+QB-Core | itsvinnyx-trickOrTreat Version 3.0
+
+Hi! Thank you for purchasing my script. If you need support please check out the config in the configuration folder.
+
+My Discord is: ItsVinnyX#0001
+My Discord server is: https://discord.gg/ebdM6nsNdq
+
+Setup (Do this before contacting me.)
+
+Step 1:
+• Open server.cfg or where you do your Ace Permissions.
+• Make sure you have either add_ace group.superadmin "trickOrTreat.admin" allow (YOUR GROUP, IN THIS CASE, I USED superadmin, you may use admin if you wish) OR YOU CAN USE add_ace identifier.steam:YOURSTEAMIDHERE "trickOrTreat.admin" allow
+
+Step 2:
+• (OPTIONAL) This is optional. If you decide to use the sounds, make sure you are starting interact-sound before trickOrTreat.
+• Make sure that trickOrTreat is ENSURED/STARTED within the server.cfg.
+
+Step 3:
+• When ready, make sure you test your item and money-giving before running on a live server.
+• Run the command "/startEvent"
+
+OPTIONAL (SOUND SETUP):
+
+Step 1:
+• Install and ensure https://forum.cfx.re/t/release-play-custom-sounds-for-interactions/ (interact-sound)
+
+Step 2:
+• Move the sound files located in the sound folder of trickOrTreat to interact-sound/client/html/sounds
+
+Step 3:
+• Start the event by typing the command "/startEvent", if you hear the witch laugh you've done it correctly. If NOT reach out for help!
+
+Step 4:
+• When ready to end the event make sure you do "/endEvent".
+
+ENJOY! Leave a review as well!
+
+EXTRA DETAILS
+Script Page: https://forum.cfx.re/t/paid-qbcore-esx-halloween-event-trick-or-treat-update-2022/
+CFX Profile: https://forum.cfx.re/u/VinnyX
+My Discord is: ItsVinnyX#0001
+My Discord server is: https://discord.gg/ebdM6nsNdq

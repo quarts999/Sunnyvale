@@ -1,0 +1,27 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>map1.ymap</Item>
+    <Item>cs6_04_strm_1.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>..\[ytyp]\rcore_prison_assets.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>..\[ydr]\rcore_leafes_large.ydr</Item>
+    <Item>..\[ydr]\rcore_leafes_medium.ydr</Item>
+    <Item>..\[ydr]\rcore_leafes_small.ydr</Item>
+    <Item>..\[ydr]\rcore_prop_fnclink_10d.ydr</Item>
+    <Item>..\[ydr]\rcore_solitary_confinement.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>
