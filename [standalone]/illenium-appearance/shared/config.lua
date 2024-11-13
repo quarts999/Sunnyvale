@@ -103,8 +103,8 @@ Config.Blips = {
     ["clothing"] = {
         Show = true,
         Sprite = 366,
-        Color = 64,
-        Scale = 0.6,
+        Color = 47,
+        Scale = 0.7,
         Name = "Clothing Store",
     },
     ["barber"] = {
@@ -562,7 +562,7 @@ Config.Stores = {
 Config.ClothingRooms = {
     {
         job = "police",
-        coords = vector4(458.37, -997.76, 30.69, 88.37),
+        coords = vector4(454.91, -990.89, 30.69, 193.4),
         size = vector3(4, 4, 4),
         rotation = 45,
         usePoly = false,
