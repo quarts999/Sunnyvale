@@ -2,7 +2,7 @@
 Config = {}
 
 -- Configurable Sticky Note Item
-Config.GPSTrackerItem = "gpstracker"  -- Name of the item in your inventory
+Config.StickyNoteItem = "stickynote"  -- Name of the item in your inventory
 
 -- List of hidden locations where the blip will appear
 Config.HiddenLocations = {

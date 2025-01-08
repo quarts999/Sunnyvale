@@ -2,7 +2,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 -- Listen for the event when the sticky note is used
-RegisterNetEvent('gpstracker:revealLocation', function()
+RegisterNetEvent('stickynote:revealLocation', function()
     local playerPed = PlayerPedId()
 
     -- Request the animation dictionary
@@ -12,7 +12,7 @@ RegisterNetEvent('gpstracker:revealLocation', function()
     end
 
     -- Spawn a phone/tablet prop and attach it to the player's hand
-    local model = GetHashKey("p_amb_phone_01")  -- You can replace this with any other model, like "prop_battery_01" for a tablet
+    local model = GetHashKey("xs_prop_arena_stickynote_01a")  -- You can replace this with any other model, like "prop_battery_01" for a tablet
     RequestModel(model)
     while not HasModelLoaded(model) do
         Citizen.Wait(100)

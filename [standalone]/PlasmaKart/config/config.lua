@@ -70,7 +70,7 @@ Shop = {
 
 	["PlasmaKart"] = {
 	
-		["Blip"] = {x=-2275.79, y=226.01, z=169.6, h=265.75,sprite=650,scale=0.8,colour=2},
+		["Blip"] = {x=-2275.79, y=226.01, z=169.6, h=265.75,sprite=650,scale=0.7,colour=2},
 		["Create"]={x=-2266.49, y=220.12, z=169.6, h=176.01},
 		-- ["Join"]={x=-2285.5708007812,y=212.85258483887,z=108.37065124512,h=176.97985839844},
 		["MapAvailable"] = {"PlasmaRace 1","PlasmaRace 2","PlasmaRace 5"},

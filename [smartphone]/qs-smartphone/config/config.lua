@@ -749,8 +749,8 @@ Config.ResetPassword = {
             },
             blip = {
                 name = 'Telephone technician',
-                sprite = 89,
-                color = 1,
+                sprite = 899,
+                color = 0,
                 scale = 0.7
             }
         },

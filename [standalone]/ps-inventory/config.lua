@@ -11,7 +11,7 @@ Config.UseItemDrop = false -- This will enable item object to spawn on drops ins
 Config.ItemDropObject = `sf_prop_sf_backpack_01a` -- if Config.UseItemDrop is true, this will be the prop that spawns for the item
 
 Config.Progressbar = {
-    Enable = false,         -- True to Enable the progressbar while opening inventory
+    Enable = true,         -- True to Enable the progressbar while opening inventory
     minT = 350,             -- Min Time for Inventory to open
     maxT = 500              -- Max Time for Inventory to open
 }

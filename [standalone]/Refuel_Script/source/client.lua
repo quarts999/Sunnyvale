@@ -62,6 +62,10 @@ function SetFuel(vehicle, fuel)
     end
 end
 
+-- Export the SetFuel function
+exports('SetFuel', SetFuel)
+
+
 -- returns pump position if a player is near it.
 function nearPump(coords)
     local entity = nil
