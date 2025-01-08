@@ -23,7 +23,7 @@ end)
     F1 -- Key to open the smartphone
 ]]
 
-RegisterKeyMapping('TooglePhone', 'Open Phone', 'keyboard', 'F1')
+RegisterKeyMapping('TooglePhone', 'Open Phone', 'keyboard', 'm')
 
 RegisterCommand('TooglePhone', function()
     if canOpenPhone then

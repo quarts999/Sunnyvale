@@ -21,8 +21,8 @@ Config.AutoMessages = {
     enable = true,
     timeout = 5, -- in minutes
     messages = {
-       "discord.gg/codem",
-       "Welcome to mRoleplay",
+       "discord.gg/sunnyvalerp",
+       "Welcome to Sunnyvale ☀️",
     },
 }
 

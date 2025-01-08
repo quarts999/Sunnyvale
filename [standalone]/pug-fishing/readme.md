@@ -24,7 +24,7 @@ elseif itemData["name"] == "fishinglure" then
 elseif itemData["name"] == "fishinglure2" then
     info.uses = 1500
 
-# (ps-inventory & PS-INVENTORY ONLY) -REPLACE THIS FUNCTION- in ps-inventory/server/functions.lua at around line 23
+# (ps-inventory & ps-inventory ONLY) -REPLACE THIS FUNCTION- in ps-inventory/server/functions.lua at around line 23
 local function SetupShopItems(shopItems)
     local items = {}
     if shopItems and next(shopItems) then
@@ -64,7 +64,7 @@ case "fishinglure2":
 --
 
 --
-# (PS-INVENTORY ONLY) put this in ps-inventory/html/js/app.js at around line 630 under the markedbills (looks like this: https://gyazo.com/3fa6991e8784917cfda0c6ec9376e52d)
+# (ps-inventory ONLY) put this in ps-inventory/html/js/app.js at around line 630 under the markedbills (looks like this: https://gyazo.com/3fa6991e8784917cfda0c6ec9376e52d)
 } else if (itemData.name == "fishinglure") {
     $(".item-info-title").html("<p>" + itemData.label + "</p>");
     $(".item-info-description").html(
@@ -80,7 +80,7 @@ case "fishinglure2":
         "</span></p><p style=\"font-size:11px\"><b>Weight: </b>" + itemData.weight + " | <b>Amount: </b> " + itemData.amount + " | <b>Quality: </b> " + "<a style=\"font-size:11px;color:green\">" + Math.floor(itemData.info.quality) + "</a>"
     );
 
-# (PS-INVENTORY ONLY) put this in ps-inventory/server/main.lua where the /giveitem command is at around line 2409 under the harness. (looks like this https://gyazo.com/89360e5ab146413def3c2f0360510449)
+# (ps-inventory ONLY) put this in ps-inventory/server/main.lua where the /giveitem command is at around line 2409 under the harness. (looks like this https://gyazo.com/89360e5ab146413def3c2f0360510449)
 elseif itemData["name"] == "fishinglure" then
     info.uses = 1000
 elseif itemData["name"] == "fishinglure2" then
