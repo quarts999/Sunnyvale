@@ -294,6 +294,7 @@ QBShared.Items = {
     trojan_usb                   = { name = 'trojan_usb', label = 'Trojan USB', weight = 0, type = 'item', image = 'usb_device.png', unique = false, useable = false, shouldClose = true, description = 'Handy software to shut down some systems' },
     screwdriverset               = { name = 'screwdriverset', label = 'Toolkit', weight = 1000, type = 'item', image = 'screwdriverset.png', unique = false, useable = false, shouldClose = false, description = 'Very useful to screw... screws...' },
     drill                        = { name = 'drill', label = 'Drill', weight = 20000, type = 'item', image = 'drill.png', unique = false, useable = false, shouldClose = false, description = 'The real deal...' },
+    thermal_charge                     = { name = 'thermal_charge', label = 'Thermal Charge', weight = 1000, type = 'item', image = 'thermal_charge.png', unique = false, useable = true, shouldClose = true, description = 'Sometimes you\'d wish for everything to burn' },
 
     -- Vehicle Tools
     nitrous                      = { name = 'nitrous', label = 'Nitrous', weight = 1000, type = 'item', image = 'nitrous.png', unique = false, useable = true, shouldClose = true, description = 'Speed up, gas pedal! :D' },
@@ -343,7 +344,6 @@ QBShared.Items = {
     -- Theft and Jewelry
     rolex                        = { name = 'rolex', label = 'Golden Watch', weight = 1500, type = 'item', image = 'rolex.png', unique = false, useable = false, shouldClose = true, description = 'A golden watch seems like the jackpot to me!' },
     diamond_ring                 = { name = 'diamond_ring', label = 'Diamond Ring', weight = 1500, type = 'item', image = 'diamond_ring.png', unique = false, useable = false, shouldClose = true, description = 'A diamond ring seems like the jackpot to me!' },
-    diamond                      = { name = 'diamond', label = 'Diamond', weight = 1000, type = 'item', image = 'diamond.png', unique = false, useable = false, shouldClose = true, description = 'A diamond seems like the jackpot to me!' },
     goldchain                    = { name = 'goldchain', label = 'Golden Chain', weight = 1500, type = 'item', image = 'goldchain.png', unique = false, useable = false, shouldClose = true, description = 'A golden chain seems like the jackpot to me!' },
     tenkgoldchain                = { name = 'tenkgoldchain', label = '10k Gold Chain', weight = 2000, type = 'item', image = '10kgoldchain.png', unique = false, useable = false, shouldClose = true, description = '10 carat golden chain' },
     goldbar                      = { name = 'goldbar', label = 'Gold Bar', weight = 7000, type = 'item', image = 'goldbar.png', unique = false, useable = false, shouldClose = true, description = 'Looks pretty expensive to me' },
@@ -383,8 +383,12 @@ QBShared.Items = {
     newsmic                      = { name = 'newsmic', label = 'News Microphone', weight = 100, type = 'item', image = 'newsmic.png', unique = true, useable = true, shouldClose = true, description = 'A microphone for the news' },
     newsbmic                     = { name = 'newsbmic', label = 'Boom Microphone', weight = 100, type = 'item', image = 'newsbmic.png', unique = true, useable = true, shouldClose = true, description = 'A Useable BoomMic' },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     gpstracker                     = { name = 'gpstracker', label = 'GPS Tracker', weight = 100, type = 'item', image = 'gpstracker.png', unique = true, useable = true, shouldClose = true, description = 'A high-tech GPS tracking device. This item could allow players to track illegal activities or hidden locations.' },
+>>>>>>> Stashed changes
+=======
+    gpstracker                     = { name = 'gpstracker', label = 'GPS Tracker', weight = 100, type = 'item', image = 'gpstracker.png', unique = true, useable = true, shouldClose = true, description = 'This item could allow players to track illegal activities or hidden locations' },
 >>>>>>> Stashed changes
 
     -- Smartphone
@@ -436,4 +440,52 @@ QBShared.Items = {
 
     -- Brake Cutting
     pd_wirecutters 			= {name = 'pd_wirecutters', 				label = 'Wire cutters', 			weight = 0, 		type = 'item', 		image = 'pd_wirecutters.png', 		unique = true, 		useable = true, 	shouldClose = true,	   combinable = nil,   description = 'Wire cutters!'},
+
+    --<!>-- MINING --<!>--
+	-- Permits
+	mining_permit       		= {name = 'mining_permit',          		label = 'Mining Permit',        	weight = 100,      	type = 'item',      image = 'mining_permit.png',      			unique = false,     useable = true,     shouldClose = false,    combinable = nil,   description = 'A mining permit. This grants access to mining!'},
+	caving_permit       		= {name = 'caving_permit',          		label = 'Caving Permit',        	weight = 100,      	type = 'item',      image = 'caving_permit.png',      			unique = false,     useable = true,     shouldClose = false,    combinable = nil,   description = 'A caving permit. This grants access to cave mining!'},
+
+	-- Tools
+	miningguide       		= {name = 'miningguide',          		label = 'Mining Handbook',        	weight = 100,      	type = 'item',      image = 'miningguide.png',      			unique = false,     useable = true,     shouldClose = false,    combinable = nil,   description = 'Learn all about mining with this handbook!'},
+	shovel       		= {name = 'shovel',          		label = 'Shovel',        	weight = 1500,      	type = 'item',      image = 'shovel.png',      			unique = true,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shovel used for digging things!'},
+	emptysack       		= {name = 'emptysack',          		label = 'Sack',        				weight = 100,      	type = 'item',      image = 'emptysack.png',      			unique = false,     useable = false,    shouldClose = false,    combinable = nil,   description = 'A empty sack for storing things!'},
+	gold_pan       		= {name = 'gold_pan',          		label = 'Gold Pan',        	weight = 1500,      	type = 'item',      image = 'gold_pan.png',      			unique = true,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A pan for washing dirt or gravel. Will you find gold?'},
+	jackhammer       		= {name = 'jackhammer',          		label = 'Jackhammer',        	weight = 1500,      	type = 'item',      image = 'jackhammer.png',      			unique = true,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A high quality jack hammer for breaking rocks.'},
+	dynamite       		= {name = 'dynamite',          		label = 'Dynamite',        	weight = 1500,      	type = 'item',      image = 'dynamite.png',      			unique = true,     useable = true,     shouldClose = true,    combinable = nil,   description = 'A stick of dynamite.'},
+
+	-- Paydirt
+	paydirt       		= {name = 'paydirt',          		label = 'Paydirt',        	weight = 2500,      	type = 'item',      image = 'paydirt.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A sack of paydirt!'},
+	
+	-- Ores
+	aluminum_ore       		= {name = 'aluminum_ore',          		label = 'Aluminum Ore',        	weight = 1000,      	type = 'item',      image = 'aluminum_ore.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Aluminum Ore!'},
+	copper_ore       		= {name = 'copper_ore',          		label = 'Copper Ore',        	weight = 1000,      	type = 'item',      image = 'copper_ore.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Copper Ore!'},
+	tin_ore       		= {name = 'tin_ore',          		label = 'Tin Ore',        	weight = 1000,      	type = 'item',      image = 'tin_ore.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Tin Ore!'},
+	iron_ore       		= {name = 'iron_ore',          		label = 'Iron Ore',        	weight = 1000,      	type = 'item',      image = 'iron_ore.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Iron Ore!'},
+	coal       		= {name = 'coal',          		label = 'Coal',        	weight = 1000,      	type = 'item',      image = 'coal.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Coal!'},
+	gold_ore       		= {name = 'gold_ore',          		label = 'Gold Ore',        	weight = 1000,      	type = 'item',      image = 'gold_ore.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Gold Ore!'},
+	silver_ore       		= {name = 'silver_ore',          		label = 'Silver Ore',        	weight = 1000,      	type = 'item',      image = 'silver_ore.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A piece of Silver Ore!'},
+
+	-- Ingots
+	aluminum_ingot       		= {name = 'aluminum_ingot',          		label = 'Aluminum Ingot',        	weight = 1000,      	type = 'item',      image = 'aluminum_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Aluminum Ingot!'},
+	copper_ingot       		= {name = 'copper_ingot',          		label = 'Copper Ingot',        	weight = 1000,      	type = 'item',      image = 'copper_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Copper Ingot!'},
+	tin_ingot       		= {name = 'tin_ingot',          		label = 'Copper Tin',        	weight = 1000,      	type = 'item',      image = 'tin_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Tin Ingot!'},
+	iron_ingot       		= {name = 'iron_ingot',          		label = 'Iron Ingot',        	weight = 1000,      	type = 'item',      image = 'iron_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Iron Ingot!'},
+	gold_ingot       		= {name = 'gold_ingot',          		label = 'Gold Ingot',        	weight = 1000,      	type = 'item',      image = 'gold_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Gold Ingot!'},
+	silver_ingot       		= {name = 'silver_ingot',          		label = 'Silver Ingot',        	weight = 1000,      	type = 'item',      image = 'silver_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Silver Ingot!'},
+	bronze_ingot       		= {name = 'bronze_ingot',          		label = 'Bronze Ingot',        	weight = 1000,      	type = 'item',      image = 'gold_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Bronze Ingot!'},
+	steel_ingot       		= {name = 'steel_ingot',          		label = 'Steel Ingot',        	weight = 1000,      	type = 'item',      image = 'steel_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Steel Ingot!'},
+	cobalt_ingot       		= {name = 'cobalt_ingot',          		label = 'Cobalt Ingot',        	weight = 1000,      	type = 'item',      image = 'cobalt_ingot.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A Cobalt Ingot!'},
+
+	-- Gems
+	amethyst       		= {name = 'amethyst',          		label = 'Amethyst',        	weight = 150,      	type = 'item',      image = 'amethyst.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Amethyst gemstone!'},
+	citrine       		= {name = 'citrine',          		label = 'Citrine',        	weight = 150,      	type = 'item',      image = 'citrine.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Citrine gemstone!'},
+	hematite       		= {name = 'hematite',          		label = 'Hematite',        	weight = 150,      	type = 'item',      image = 'hematite.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Hematite gemstone!'},
+	kyanite       		= {name = 'kyanite',          		label = 'Kyanite',        	weight = 150,      	type = 'item',      image = 'kyanite.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Kyanite gemstone!'},
+	onyx       			= {name = 'onyx',          		label = 'onyx',        	weight = 150,      	type = 'item',      image = 'onyx.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Onyx gemstone!'},
+	diamond       		= {name = 'diamond',          		label = 'Diamond',        	weight = 150,      	type = 'item',      image = 'diamond.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Diamond gemstone!'},
+	emerald       		= {name = 'emerald',          		label = 'Emerald',        	weight = 150,      	type = 'item',      image = 'emerald.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Emerald gemstone!'},
+	ruby       			= {name = 'ruby',          		label = 'Ruby',        	weight = 150,      	type = 'item',      image = 'ruby.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Ruby gemstone!'},
+	sapphire       		= {name = 'sapphire',          		label = 'Sapphire',        	weight = 150,      	type = 'item',      image = 'sapphire.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Sapphire gemstone!'},
+	tanzanite       	= {name = 'tanzanite',          		label = 'Tanzanite',        	weight = 150,      	type = 'item',      image = 'onyx.png',      			unique = false,     useable = false,     shouldClose = false,    combinable = nil,   description = 'A shiny Tanzanite gemstone!'},
 }

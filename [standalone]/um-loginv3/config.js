@@ -7,10 +7,10 @@ const UM = {
     },
 
     MainSettings: {
-        color: '#bb55da', // Todo: https://www.color-hex.com/
+        color: '#0fffd5', // Todo: https://www.color-hex.com/
         opacity: 1, // 0 close background opacity, | 0.7 low background opacity,
-        logo: "assets/images/logo.png",
-        logowidth: 9,
+        logo: "assets/images/sunnyvale.png",
+        logowidth: 2,
         extra: {
             autoRGB: false,
             autoSnow: false,

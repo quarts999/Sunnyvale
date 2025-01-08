@@ -2,7 +2,7 @@
 Config = {}
 
 -- Configurable Sticky Note Item
-Config.StickyNoteItem = "stickynote"  -- Name of the item in your inventory
+Config.GPSTracker = "gpstracker"  -- Name of the item in your inventory
 
 -- List of hidden locations where the blip will appear
 Config.HiddenLocations = {
@@ -22,9 +22,9 @@ Config.HiddenLocations = {
 
 -- Blip Configuration (Customizable)
 Config.BlipConfig = {
-    sprite = 66,               -- Sprite of the blip (default: 1)
-    color = 2,                -- Color of the blip (default: 2 for green)
-    scale = 0.4,              -- Scale of the blip (default: 0.8)
+    -- sprite = 66,               -- Sprite of the blip (default: 1)
+    -- color = 2,                -- Color of the blip (default: 2 for green)
+    -- scale = 0.4,              -- Scale of the blip (default: 0.8)
     name = "Hidden Location", -- Name of the blip
     radiusScale = 200.0,      -- Scale of the radius blip (default: 200.0)
     radiusColor = 2,          -- Color of the radius blip (default: 2 for green)

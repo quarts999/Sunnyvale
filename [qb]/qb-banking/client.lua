@@ -157,7 +157,18 @@ if Config.useTarget then
                         action = function()
                             OpenBank()
                         end,
+<<<<<<< Updated upstream
                     }
+=======
+                    },
+                    -- {
+                    --     icon = 'fas fa-university',
+                    --     label = 'Deposit Check',
+                    --     action = function()
+                    --         OpenBank()
+                    --     end,
+                    -- }
+>>>>>>> Stashed changes
                 },
                 distance = 1.5
             })
