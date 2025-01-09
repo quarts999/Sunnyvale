@@ -382,14 +382,7 @@ QBShared.Items = {
     newscam                      = { name = 'newscam', label = 'News Camera', weight = 100, type = 'item', image = 'newscam.png', unique = true, useable = true, shouldClose = true, description = 'A camera for the news' },
     newsmic                      = { name = 'newsmic', label = 'News Microphone', weight = 100, type = 'item', image = 'newsmic.png', unique = true, useable = true, shouldClose = true, description = 'A microphone for the news' },
     newsbmic                     = { name = 'newsbmic', label = 'Boom Microphone', weight = 100, type = 'item', image = 'newsbmic.png', unique = true, useable = true, shouldClose = true, description = 'A Useable BoomMic' },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-    gpstracker                     = { name = 'gpstracker', label = 'GPS Tracker', weight = 100, type = 'item', image = 'gpstracker.png', unique = true, useable = true, shouldClose = true, description = 'A high-tech GPS tracking device. This item could allow players to track illegal activities or hidden locations.' },
->>>>>>> Stashed changes
-=======
     gpstracker                     = { name = 'gpstracker', label = 'GPS Tracker', weight = 100, type = 'item', image = 'gpstracker.png', unique = true, useable = true, shouldClose = true, description = 'This item could allow players to track illegal activities or hidden locations' },
->>>>>>> Stashed changes
 
     -- Smartphone
     classic_phone 			 	 = {name = 'classic_phone', 			  	label = 'Classic Phone', 			weight = 700, 		type = 'item', 		image = 'classic_phone.png', 		unique = true, 		useable = true, 	shouldClose = true,	   combinable = nil,   description = 'They say that Quasar Smartphone is the same as an iPhone, what do you think?'},
